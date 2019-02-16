@@ -1,0 +1,81 @@
+h1	{
+  color: #A501E8;
+  text-align: center;
+  text-shadow: 3px 3px #37DAFF;
+  #background-color: pink;
+  font-family: 'Roboto', sans-serif; 
+  padding: 80px;
+  margin: 0;
+  border : 3px dashed pink;
+  border-radius: 21px;
+}
+
+
+p{
+	color: red;
+	font-family: 'Felipa', cursive;
+}
+a {
+text-decoration: none;
+	}
+a:hover {
+    color: #37FF44;
+}
+
+body{
+    background: rgb(245,245,245);
+    color: gray;
+    font-size: 25px;
+    font-family: 'Felipa', cursive;
+}
+
+h2{
+  font-weight: lighter;
+  font-size: 20px;	
+  font-family: 'Felipa', cursive;
+  /*text-align: center;*/	
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+
+#banner {
+	text-align: center;
+	/*background-image: url("https://images.unsplash.com/photo-1547844149-792ce502416a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+    height: 100vh;
+    width: 100vw; OR*/
+    background-image: url("https://images.unsplash.com/photo-1547844149-792ce502416a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+    padding: 150px;
+    background-size: cover;
+    text-shadow: 1px 1px 5px black;
+/*for random photos https://unsplash.it/1300/600?random*/
+ }
+
+.second-line {
+	color: white;
+}
+
+
+
+#banner p {
+	color: white;
+	opacity: 0.8;
+	font-size: 30px;
+	font-weight: lighter;
+}
+
+#footer {
+	padding: 30px;
+	background-color: rgb(30,30,30);
+	color: lightgray;
+}
+
+.section {
+	padding: 50px;
+	font-weight: lighter;
+}
